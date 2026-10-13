@@ -1,0 +1,19 @@
+# Python virtual environments & bytecode
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large Datasets
+Alzheimer_s Dataset/
+data/
+datasets/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
