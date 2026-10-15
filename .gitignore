@@ -7,13 +7,40 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
-# Large Datasets
+# Large Datasets & Raw Medical Scans (Secret / Confidential)
 Alzheimer_s Dataset/
 data/
 datasets/
+*.tar.gz
+*.zip
 
-# OS and IDE files
+# Intermediate Dumps & Local Scratch Scripts
+dump.txt
+dump.py
+innovative_paper_text.txt
+generate_paper.py
+generate_definitive_paper_full.py
+test_*.py
+test_*.docx
+test_*.png
+
+# Temporary Office Lock & Backup Files
+~$*.docx
+~$*.pptx
+*.tmp
+*.log
+
+# OS & IDE Files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# Research Paper Manuscript, Drafts & Generation Pipeline (Confidential / Pre-Publication)
+research ppt/
+paper_builder/
+build_full_paper.py
+create_arihantqnet_diagram.py
+verify_definitive_paper.py
+*.docx
+*.pdf
